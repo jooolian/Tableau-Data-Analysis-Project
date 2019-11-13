@@ -1,0 +1,1 @@
+In this project, I chose several aspects and relationships in the data I wanted to visualize. I then imported the data into Tableau and created a couple of visualisations. The links to these visualisations can be found in the presentation file.

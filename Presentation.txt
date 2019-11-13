@@ -1,0 +1,43 @@
+1. Story
+
+- Link:
+https://public.tableau.com/profile/julian3394#!/vizhome/Story-Absolutenumbervspercentageofcancelledflightsbydestination-afterReview/Story1?publish=yes
+
+- Summary:
+The story shows two dashboards with two visualizations each. The first one shows the number of cancelled flights by destination state, above in a map and below in a bar chart. The second dashboard shows the percentage of cancelled flights in relation to total number of flights by destination state in the same manner, with a map and a bar chart. The darkest blue in the map signifies the highest value in the bar chart and vice versa.
+In the final project walkthrough, a dashboard is created that shows the number of cancellations by destination state, like the first dashboard in my story. Since Texas, Illinois, California and New York have the highest number of cancelled flights one could suspect that they have a special problem which causes all these cancellations.
+But since we are looking at absolute numbers here, the cause could also be that these states are just the destination to a lot of flights, so that the percentage of cancelled flights (number of flights cancelled in comparison to the total number of flights to each state) is not very high. When looking at the second dashboard in my story, it becomes clear that this is actually the case. Vermont has by far the highest percentage of cancelled flights and while New York and Illinois are still among the top seven states, Texas‘ percentage is mid-table and California is on the low end.
+- Design:
+I chose the design since the bar charts are great to show absolute values as well as percentages. I kept them in one color to make sure the focus is on the length of the bars. After the first review, since there are so many bars and only every second was labeled because there was too little space, I decided to change the bar chart from vertical into horizontal with a scroll bar. Now every label is visible and the bars are not so cramped together. The maps are there to accentuate the geographic nature of the data.
+- Resources:
+The final project walkthrough was the inspiration for the first dashboard of the story.
+
+2. Worksheet
+
+- Link:
+https://public.tableau.com/profile/julian3394#!/vizhome/Absolutenumberofflightsversuscancelledflightsbydestinationstate/Sheet1?publish=yes
+
+- Summary:
+This graphic shows a scatter plot with the number of cancelled flights by destination state on the y-axis and the number of total flights by destination state on the x-axis. We can see a rather strong correlation, with higher values being more spread out
+(GA, FL, CA, NY, IL, TX) while most smaller values cluster around the area where x- and y-axis meet.
+I chose to use the same data as in the last dashboard to make a scatterplot, in order to clearly see the strength of correlation between the number of flights cancelled and the total number of flights to each state and to bind together the previous two dashboards.
+Here we can see, that the states that were among those with higher cancellation percentages are not the destination of many flights as they cluster in the bottom left quadrant of the scatter plot (Rhodes Island, Vermont, Maine, West Virginia and others). In this graphic New York and Illinois stand out since they have a rather large number of cancellations even for the many flights directed to them. We could have expected that since both were among those states with the highest absolute number of cancellations as well as those with the highest cancellation percentage. Texas is in the middle of the range with rather average number of cancellations in comparison to number of flights as also seen in the graphic before. California and Florida stand out as states with a high number of flights and rather small cancellation rates.
+- Design:
+I chose a scatterplot to get a stronger visual understanding of the data that I looked at before. We could have gotten the insights shown here by comparing both dashboards extensively, but this way it’s easier and the data starts to really ‘make sense‘ in your mind since we are comparing the absolute number off lights and cancellations and therefore get a sense of proportion while still looking and the absolutes, not percentages.
+- Resources:
+N/A
+
+3. Dashboard
+
+- Link:
+https://public.tableau.com/profile/julian3394#!/vizhome/Dashboard-Reasonsforcancellations/Dashboard1?publish=yes
+
+- Summary:
+In this last graphic we can the distribution of reasons for flight cancellations in four pie charts. The top left pie chart shows the USA, while the others show different states or combinations of states. The colors stand for the share the different cancellation reasons make up in comparison to the other cancellation reasons. Blue means the cancellations were due to the Airline/ Carrier, orange means due to the National Air System and red means the cancellations were due to the weather.
+One can see that in the US in general the most important reason for flight cancellations is the weather (about 54%). Interestingly, for Vermont, which has the highest cancellation rate as we know from the visualization 1, the most important reason for cancellation is the National Air System (50%) – a great difference to the other states (17,51%). But since very few flights are directed at Vermont that result may be skewed due to sample size. The National Air System caused only four
+cancellations in absolute numbers representing 50% of cancellations. To find out more about Vermont one would need a larger sample.
+It is also interesting to note that the distributions of reasons for Illinois and New York (which I added together since they are very similar) are very close to the distribution for the US overall, with the weather dominating. In contrast to that, in California, with it’s rather low cancellation percentage, the dominating reason for cancellations is the Airline/ Carrier (almost 50%) while the weather is not such a big issue (37%). It would be very interesting to look more into California and find out why that is the case. If the Airline/ Carrier problem could be reduced, California could be one of the only state combining a high number of flights directed to it, while having a very low cancellation rate.
+- Design:
+I chose pie charts so I could easily make a comparison of the different geographic areas in a dashboard. The colors help immediately identify the reason and make very quick comparisons among the charts possible. I included the total and the percentage in the Tooltip to make sure one does not jump to false conclusions from the percentages but takes into account the absolute numbers (like in the case of Vermont).
+- Resources:
+N/A
